@@ -8,7 +8,7 @@ class Navigation extends React.Component {
     render() {
         return <header>
             <nav>
-                <ul><li>About</li><li>Our Team</li><li>Contact Us</li></ul>
+                <ul><li>About</li><li>Lessons</li><li>Schedule</li><li>Contact Us</li></ul>
             </nav>
         </header>
     }

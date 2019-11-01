@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Card from './components/card';
 import Button from './components/button';
 import Navigation from './components/navigation';

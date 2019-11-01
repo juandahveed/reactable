@@ -4,14 +4,14 @@ class Footer extends React.Component {
     constructor() {
         super();
         var today = new Date();
-         // this.state = {color: 'red'};
+        // this.state = {color: 'red'};
         this.state = {
-            year:today.getFullYear(),
+            year: today.getFullYear(),
         }
     }
     render() {
-        return <footer id="colphon">
-            {this.state.year}
+        return <footer id="colophon">
+            &copy; Reactable {this.state.year}
         </footer>
     }
 }

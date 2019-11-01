@@ -1,0 +1,23 @@
+header {
+    nav {
+        padding-top:2rem;
+        padding-bottom:2rem;
+        background-color:$light-blue;
+        color:$secondary;
+        ul {
+            margin:0;
+            padding:0;
+            list-style:none;
+            display:flex;
+
+            li {
+                font-size:18px;
+                font-weight:700;
+                padding-right:25px;
+                &:last-child {
+                    padding-right:0;
+                }
+            }
+        }
+    }
+}
