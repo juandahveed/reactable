@@ -7,7 +7,11 @@ class Home extends React.Component {
     }
     render() {
         return <div>
-            <p>This is the home page.</p>
+            <h2>Please Login To Use The App</h2>
+            <form>
+                <input type="text" placeholder="username"></input>
+                <input type="password" placeholder="password"></input>
+            </form>
         </div>
     }
 }

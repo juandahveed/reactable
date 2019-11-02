@@ -29,10 +29,10 @@ class Navigation extends React.Component {
                 </header>
                 <Switch>
                     <Route exact path="/" component={Home} />
-                    <Route path="/about" component={About} />
-                    <Route path="/lessons" component={Lessons} />
-                    <Route path="/schedule" component={Schedule} />
-                    <Route path="/contact" component={Contact} />
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/lessons" component={Lessons} />
+                    <Route exact path="/schedule" component={Schedule} />
+                    <Route exact path="/contact" component={Contact} />
                     <Route component={Notfound} />
                 </Switch>
 
