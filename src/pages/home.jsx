@@ -1,15 +1,15 @@
 import React from 'react';
 
-class Lessons extends React.Component {
+class Home extends React.Component {
     constructor() {
         super();
         // this.state = {color: 'red'};
     }
     render() {
         return <div>
-            <p>This is the Lessons page. We want to have an area to download all the information.</p>
+            <p>This is the home page.</p>
         </div>
     }
 }
 
-export default Lessons;
+export default Home;

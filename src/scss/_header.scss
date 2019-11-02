@@ -3,7 +3,7 @@ header {
         padding-top:2rem;
         padding-bottom:2rem;
         background-color:$light-blue;
-        color:$secondary;
+        
         ul {
             margin:0;
             padding:0;
@@ -11,9 +11,26 @@ header {
             display:flex;
 
             li {
-                font-size:18px;
-                font-weight:700;
-                padding-right:25px;
+                a {
+                    font-size:18px;
+                    font-weight:700;
+                    padding-right:25px;
+                    color:$secondary;
+                    border-color:$white;
+                    text-decoration:none;
+                    border-bottom:none;
+                    transition:all .7s;
+
+                    &:hover {
+                        text-decoration:none;
+                        border-bottom:solid 3px $white;
+                    }
+
+                    &.active {
+                        color:$white;
+                    }
+                }
+                
                 &:last-child {
                     padding-right:0;
                 }
